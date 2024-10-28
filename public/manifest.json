@@ -1,0 +1,10 @@
+{
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "28x28",
+            "type": "image/png"
+        }
+    ]
+}
