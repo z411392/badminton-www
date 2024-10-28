@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-size: 16px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background: #f8f9fa;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+    color: rgb(52, 71, 103);
+  }
+
+  h4 {
+    @apply text-base font-bold;
+    color: rgb(52, 71, 103);
+  }
+
+  p {
+    @apply text-sm mt-1;
+    color: rgb(123, 128, 154);
+  }
+}
+
+.firebase-emulator-warning {
+  display: none;
+}
+
+.v-data-table-footer__items-per-page {
+  display: none !important;
+}
+
+.vc-switch {
+  bottom: 0 !important;
+  right: 0 !important;
+}
